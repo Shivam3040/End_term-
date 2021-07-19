@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor='yellow'>
+<center>
+<h1>Predictions of credit card</h1>
+
+<form action="/result" method="POST">
+  <label >CreditScore</label><br>
+  <input type="text" name="CreditScore" ><br>
+  <label>Age</label><br>
+  <input type="text" name="Age" ><br><br>
+  <label>Tenure</label><br>
+  <input type="text"  name="Tenure"><br><br>
+  <label >Balance</label><br>
+  <input type="text"  name="Balance"><br><br>
+  <label >HasCrCard</label><br>
+  <input type="text"  name="HasCrCard"><br><br>
+  <label >IsActiveMember</label><br>
+  <input type="text"  name="IsActiveMember"><br><br>
+  <label >EstimatedSalary</label><br>
+  <input type="text"  name=EstimatedSalary><br><br>
+  <label >Geography</label><br>
+  <select name="Geography" id="cars">
+  <option value="1">France</option>
+  <option value="0">Spain</option>
+  
+</select><br><br>
+
+  <label >Gender</label><br>
+   <select name="Gender" id="cars">
+  <option value="1">Male</option>
+  <option value="0">Female</option>
+  
+</select><br><br>
+  
+
+  
+
+  <input type="submit" value="Predict">
+  
+</form>
+</center>
+</body>
+</html>
